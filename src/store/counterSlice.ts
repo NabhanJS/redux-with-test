@@ -4,10 +4,10 @@ const counterSlice = createSlice({
   name: 'counter',
   initialState: { count: 0 },
   reducers: {
-    increaseBy1(state, action) {
+    increaseBy1(state) {
       state.count++;
     },
-    decreaseBy1(state, action) {
+    decreaseBy1(state) {
       state.count--;
     }
   }
